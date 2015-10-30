@@ -1,0 +1,133 @@
+html{
+    margin:0px;
+    position: relative;
+    background: url("../img/Site_04.jpg") no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    
+}
+div.imagem_fundo{
+	background: url("img/Site_04.jpg") no-repeat;
+	background-size:cover;
+	width:100%;
+	height:100%;
+}
+header h1 span{
+	color: #7cbcd6;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
+}
+header h1{
+	color: #888;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.8);
+}
+
+h1{
+	text-align:center;
+}
+
+p.titulo_cadastro{
+	
+}
+div{
+	margin-bottom:15px;
+        margin-left: 8%;
+        margin-right: 5%;
+}
+p.nome_funcionario{
+	text-align:right;
+}
+.painel > header h1 span{
+	color: #7cbcd6;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
+}
+
+fieldset.principais{
+	font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+	position: absolute;
+/*	top: 0px;*/
+	
+	width: 55%;
+	padding: 30px 6% 60px 6%;
+	margin: 0 0 35px 0;
+        margin-left: 150px;
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+#painel{
+	width: 60%;
+	right: 0px;
+	min-height: 560px;	
+	margin: 0px auto;	
+	width: 500px;
+	position: relative;	
+}
+p.titulo{
+    font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+p.financeiro{
+    font-size: 20px;
+    
+}
+div.botao_centro{
+    text-align: center;
+}
+button.botao{
+    margin:10px;
+    text-align: center;
+    padding: 15px;
+    padding-left:20px;
+    padding-right:20px;
+    border: 1px solid rgb(200, 200, 200);
+}
+#painel p.button input{
+	width: 30%;
+	cursor: pointer;	
+	background: rgb(61, 157, 179);
+	padding: 8px 5px;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	color: #fff;
+	font-size: 24px;	
+	border: 1px solid rgb(28, 108, 122);	
+	margin-bottom: 10px;	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;	
+	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	   -moz-box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	        box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+button.botao:hover{
+	background: rgb(74, 179, 198);
+}
+
+
+button.botao:focus{
+	background: rgb(40, 137, 154);
+	position: relative;
+	top: 1px;
+	border: 1px solid rgb(12, 76, 87);	
+	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+	   -moz-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+	        box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+}

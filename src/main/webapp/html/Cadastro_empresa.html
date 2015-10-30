@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cadastro de empresa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/style_cadastro_empresas.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body >
+        <form>
+            <div class="painel">
+
+                <fieldset class="principais">
+                    <header>
+                        <h1>CADASTRO DE <span>EMPRESA</span></h1>
+                    </header>
+                    <p class="financeiro"><b>Dados principais</b></p>
+                    <div>
+                        <label for="cnpj">CNPJ:</label>
+                        <input type="text" placeholder="Ex: 00.000.000/0001-00"  id="id" name="id" size="25" maxlength="19"/>
+                        <label for="cei">CEI:</label>
+                        <input type="text" name="cei" size="25" maxlength="19"/>
+                    </div>
+                    <div>
+                        <label for="social">Razão social:</label>
+                        <input type="text" placeholder="Ex: Sport-Fitness LTDA."  id="social"  size="53"/>
+
+                    </div>
+                    <div>
+                        <label for="fantasia">Nome Fantasia:</label>
+                        <input type="text" placeholder="Ex: Sport Fitness"  id="fantasia" size="50"/>
+
+                    </div>
+                    <div>
+                        <label for="gerente">Gerente/Responsavel da empresa:</label>
+                        <input type="text" placeholder="Ex: Roberto Silva"  id="gerente" size="50"/>
+
+                    </div>
+                    <hr/>
+                    <p class="financeiro"><b>Endereço</b></p>
+                    <div>
+                        <label for="logadouro">Logadouro</label>
+                        <select name="logadouro">
+                            <option>Rua</option>
+                            <option>Avenida</option>
+                            <option>Viela</option>
+                            <option>Outros</option>
+                        </select>
+                        <input type="text" id="endereco" name="endereco" size="30"/>
+                        <label for="numero">&nbsp;Número:</label>
+                        <input type="text" id="numero" name="numero" size="7"/>
+                    </div>
+                    <div>
+                        <label for="complemento">Complemento:</label>
+                        <input type="text" id="complemento" name="complemento" size="59"/>
+                    </div>
+                    <div>
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" placeholder="Ex: Jardins"  id="bairro" name="bairro" size="45"/>
+                        <label for="bairro">&nbsp;CEP:</label>
+                        <input type="text" placeholder="Ex: 00000-000"  id="bairro" name="cep" size="11" maxlength="9"/>
+                    </div>
+                    <div>
+                        <label for="Cidade">Cidade:</label>
+                        <input type="text" placeholder="Ex: São Paulo"  id="cidade" name="cidade" size="44"/>
+                        <label for="Cidade">&nbsp;Estado:</label>
+                        <select name="estado">
+                            <option>SP</option>
+                            <option>RJ</option>
+                            <option>BA</option>
+                            <option>BH</option>
+                        </select>
+                    </div>
+
+                    <hr/>
+                    <p class="financeiro"><b>Contatos</b></p>
+                    <div>
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" placeholder="(11) 0000-0000"  id="telefone" name="telefone" size="16"/>
+                        <label for="celular">&nbsp;Celular:</label>
+                        <input type="text" placeholder="(11) 00000-0000"  id="celular" name="celular" size="16"/>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="text" placeholder="sport-fitness@dominio.com"  id="email" name="email" size="50"/>
+                    </div>
+                    <div>
+
+                    </div>
+                    <div class="botao_centro">
+                        <button class="botao" type="submit">Salvar</button>
+
+                        <button class="botao" type="submit">Limpar</button>
+
+                        <button class="botao" type="submit">Voltar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </body>
+</html>
+<!-- size="5" maxlength="5" -->

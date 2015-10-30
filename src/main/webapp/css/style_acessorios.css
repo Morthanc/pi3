@@ -1,0 +1,133 @@
+html{
+    margin:0px;
+    position: relative;
+    background: url("img/Site_04.jpg") no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+h1{
+	text-align:center;
+}
+
+div{
+	margin-bottom:15px;
+}
+p.nome_funcionario{
+	text-align:right;
+}
+
+.painel{
+	position:relative;
+	margin-left:50px;
+	background-color: #FFFAFA;
+	
+}
+section{
+	margin-left:270px;
+	height:300px;
+}
+nav{
+	position:absolute;
+	left:0px;
+	width:200px;
+}
+
+
+p.financeiro{
+    font-size: 20px;
+    
+}
+div.botao_centro{
+    text-align: center;
+}
+div.imagem{
+	background-color:#ccc;
+	width:190px;
+	height:140px;
+	text-align:center;
+}
+a.verde{
+	color:#6f6;
+}
+p.descricao_produto{
+	width:160px;
+	font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+}
+button.botao{
+    margin:10px;
+    text-align: center;
+    padding: 15px;
+    padding-left:20px;
+    padding-right:20px;
+    border: 1px solid rgb(200, 200, 200);
+}
+div.produtos{
+	width:225px;
+	height:405px;
+	display:block;
+}
+article{
+	display:block;
+}
+div.info_produto{
+	width:225px;
+	height:187px;
+	margin-left:15px;
+	margin-right:15px;
+}
+p.valor_produto{
+	font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+}
+#painel p.button input{
+	width: 30%;
+	cursor: pointer;	
+	background: rgb(61, 157, 179);
+	padding: 8px 5px;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	color: #fff;
+	font-size: 24px;	
+	border: 1px solid rgb(28, 108, 122);	
+	margin-bottom: 10px;	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;	
+	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	   -moz-box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	        box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
+	        0px 0px 0px 3px rgb(254, 254, 254),
+	        0px 5px 3px 3px rgb(210, 210, 210);
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+}
+button.botao:hover{
+	background: rgb(74, 179, 198);
+}
+
+
+button.botao:focus{
+	background: rgb(40, 137, 154);
+	position: relative;
+	top: 1px;
+	border: 1px solid rgb(12, 76, 87);	
+	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+	   -moz-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+	        box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+}
+div.menu_esquerda{
+	left:0;
+}
+div.texto_centro{
+    text-align: center;
+}

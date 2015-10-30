@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cadastro de produtos</title>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/style_cadastro_produtos.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body >
+        <form action="" method="post">
+            <div class="painel">
+
+                <fieldset class="principais">
+                    <header>
+                        <h1>CADASTRO DE <span>PRODUTOS</span></h1>
+                    </header>
+                    <p class="financeiro"><b>Dados principais do produtos</b></p>
+                    <div>
+                        <label for="id">Código:</label>
+                        <input type="text" placeholder="Ex: 123456789"  id="id" name="id" size="15"/>
+                    </div>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" placeholder="Ex: Dumbbell"  id="nome" name="name" size="70"/>
+                    </div>
+                    <div>
+                        <label for="categoria">Categoria:</label>
+                        <select name="categoria">
+                            <option>Acessórios</option>
+                            <option>Anilhas e Barras</option>
+                            <option>Cardio</option>
+                            <option>Outros</option>
+                        </select>
+                        &nbsp;<input type="text" name="outros" size="47"/>
+                    </div>
+
+                    <div>
+                        <label for="descricao">Descrição:</label>
+                        <input type="text" id="descricao" name="descricao" size="66"/>
+                    </div>
+                    <div>
+                        <label for="fabricante">Fabricante:</label>
+                        <input type="text" placeholder="Ex: Fitness Academia"  id="fabricante" name="fabricante" size="65"/>
+                    </div>
+                    <div>
+                        <label for="fabricante">Fornecedor:</label>
+                        <input type="text" placeholder="Ex: Amigo Fitness Academia"  id="fornecedor" name="fornecedor" size="64"/>
+                    </div>
+                    <div>
+                        <label for="Quantidade">Quantidade: </label>
+                        <input type="text" id="quantidade" name="quantidade" size="4"/>
+                    </div>
+                    <hr/>
+                    <p class="financeiro"><b>Financeiro</b></p>
+
+                    <div>
+                        <label for="valorCompra">Valor da compra: (R$)</label>
+                        <input type="text" id="valorCompra" name="valorCompra" size="8"/>
+                        <label for="valorVenda">Valor da venda: (R$)</label>
+                        <input type="text" id="valorCompra" name="valorCompra" size="8"/>
+                        <label for="lucro">% Lucro:</label>
+                        <input type="text" id="lucro" name="lucro" size="5"/>
+                    </div>
+                    
+                    <div>
+                        
+                        <label for="quantidadeMin">Quantidade mínima:</label>
+                        <input type="text" id="quantidadeMin" name="quantidadeMin" size="5"/>
+                        <label for="quantidadeMax">Quantidade máxima:</label>
+                        <input type="text" id="quantidadeMax" name="quantidadeMax" size="5"/>
+                    </div>
+                    <div>
+                        
+                        
+                    </div>
+
+                    <div class="botao_centro">
+                        <button class="botao" type="submit">Salvar</button>
+
+                        <button class="botao" type="submit">Limpar</button>
+                        <a href="Home.html">
+                        <button class="botao" onClick="history.go(-1)" type="submit">Voltar</button>
+                        </a>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </body>
+</html>
+<!-- size="5" maxlength="5" -->
